@@ -1,25 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+#pile, #deck {
+  float: left;
+}
+
 #pile, #deck, .card {
-  width: 60px;
-  height: 90px;
+  width: 32px;
+  height: 45px;
   border: 1px solid #111;
   background: #eee;
   margin: 4px;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 12px;
 }
 
 .card {
-  display: inline-block;
+  float: left;
+}
+
+.clear {
+  clear: both;
 }
 
 #community {
-  height: 200px;
+  min-height: 200px;
   background: #ddd;
 }
 
 .player {
-  height: 98px;
+  min-height: 85px;
   background: #abc;
+  position: relative;
+  margin-top: 4px;
+  padding-top: 32px;
 }
 
-.player-self {
-  background: #def;
+.player-name {
+  background: #eee;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 4px;
+}
+
+.player-self .player-name {
+  background: #ded;
 }
