@@ -1,0 +1,47 @@
+{
+  "name": "crypto-deck-ui",
+  "version": "1.0.0",
+  "description": "Simple UI for CryptoDeck",
+  "main": "lib/ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/crypto-deck-ui.git"
+  },
+  "keywords": [
+    "crypto-deck",
+    "mental",
+    "poker",
+    "elliptic"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/crypto-deck-ui/issues"
+  },
+  "homepage": "https://github.com/indutny/crypto-deck-ui#readme",
+  "dependencies": {
+    "crypto-deck": "^1.1.1",
+    "elliptic": "^6.3.3",
+    "inherits": "^2.0.3",
+    "minimalistic-assert": "^1.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "serve-static": "^1.11.2",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  }
+}

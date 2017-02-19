@@ -1,0 +1,6 @@
+#deck, .card {
+  width: 60px;
+  height: 90px;
+  border: 1px solid #111;
+  background: #eee;
+}
