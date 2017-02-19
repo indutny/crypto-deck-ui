@@ -42,6 +42,10 @@
   float: left;
 }
 
+.card .suit {
+  font-size: 12px;
+}
+
 .clear {
   clear: both;
 }

@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/indutny/crypto-deck-ui#readme",
   "dependencies": {
-    "crypto-deck": "^1.1.1",
+    "brorand": "^1.0.7",
+    "crypto-deck": "^1.2.0",
     "elliptic": "^6.3.3",
     "inherits": "^2.0.3",
     "minimalistic-assert": "^1.0.0",
