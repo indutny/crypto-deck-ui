@@ -2,6 +2,24 @@
   box-sizing: border-box;
 }
 
+#overlay {
+  transition: opacity 0.3s, visibility 0.3s;
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 32px;
+  background: white;
+}
+
+#overlay.overlay-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
 #pile, #deck {
   float: left;
 }
