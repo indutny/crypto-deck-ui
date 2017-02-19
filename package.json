@@ -5,7 +5,7 @@
   "main": "lib/ui.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle": "webpack --progress --colors",
+    "build": "webpack --progress --colors -p",
     "watch": "webpack --progress --colors --watch"
   },
   "repository": {
@@ -35,7 +35,8 @@
     "redux": "^3.6.0",
     "serve-static": "^1.11.2",
     "socket.io": "^1.7.3",
-    "socket.io-client": "^1.7.3"
+    "socket.io-client": "^1.7.3",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",

@@ -1,6 +1,25 @@
-#deck, .card {
+#pile, #deck, .card {
   width: 60px;
   height: 90px;
   border: 1px solid #111;
   background: #eee;
+  margin: 4px;
+}
+
+.card {
+  display: inline-block;
+}
+
+#community {
+  height: 200px;
+  background: #ddd;
+}
+
+.player {
+  height: 98px;
+  background: #abc;
+}
+
+.player-self {
+  background: #def;
 }
