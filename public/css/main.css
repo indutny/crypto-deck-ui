@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  user-select: none;
 }
 
 #overlay {
@@ -31,7 +32,7 @@
   background: #eee;
   margin: 4px;
   border-radius: 2px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
   text-align: center;
   padding-top: 12px;
